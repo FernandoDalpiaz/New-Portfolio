@@ -1,0 +1,23 @@
+.hero {
+  margin: 10rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.hero-paragraph {
+  max-width: 80%;
+  text-align: justify;
+}
+
+.profile-picture {
+  height: 40rem;
+  padding-left: 20px;
+}

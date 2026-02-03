@@ -9,7 +9,7 @@ import { NavItem } from '../NavItem';
 export function NavBar() {
   return (
     <>
-      <div className={styles.navbar}>
+      <div id='navbar-section' className={styles.navbar}>
         <Title>Fernando</Title>
         <div className={styles.navitems}>
           <NavItem>Projetos</NavItem>
@@ -18,7 +18,6 @@ export function NavBar() {
           <NavItem><MoonIcon/></NavItem>
         </div>
       </div>
-      
     </>
   );
 }
