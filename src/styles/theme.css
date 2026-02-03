@@ -1,0 +1,15 @@
+:root {
+    --background:  #ffffff;
+    --text-default: #000000;
+
+    --button-hover: #000000;
+    --text-hover: #ffffff;
+}
+
+:root[data-theme='light'] {
+    --background:  #000000;
+    --text-default: #ffffff;
+
+    --button-hover: #ffffff;
+    --text-hover: #000000;
+}
