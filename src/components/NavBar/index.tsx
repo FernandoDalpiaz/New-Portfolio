@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <>
       <div id='navbar-section' className={styles.navbar}>
-        <Title>Fernando</Title>
+        <Title>Fernando Dalpiaz</Title>
         <div className={styles.navitems}>
           <NavItem>Projetos</NavItem>
           <NavItem>Formação</NavItem>

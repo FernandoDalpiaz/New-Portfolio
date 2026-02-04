@@ -1,0 +1,23 @@
+.container {
+  width: 320px;
+  height: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.img {
+  height: 300px;
+  margin-bottom: 20px;
+}
