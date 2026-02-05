@@ -4,6 +4,8 @@
   padding: 4px 16px;
   border-radius: 50px;
   font-size: 2rem;
+  transition: background-color 1s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 .btn:hover {

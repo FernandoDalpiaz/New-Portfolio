@@ -14,7 +14,11 @@ export function Projects() {
             <Button>Node</Button>
             <Button>Html/Css</Button>
           </div>
-          <div>
+          <div className={styles.list}>
+            <ProjectContainer tech={['React', 'Node']} img='profilePicture' description='Esse é um projeto inventado, esse é um projeto inventado, esse é um projeto inventado.'>Nome do Projeto</ProjectContainer>
+            <ProjectContainer tech={['React', 'Node']} img='profilePicture' description='Esse é um projeto inventado, esse é um projeto inventado, esse é um projeto inventado.'>Nome do Projeto</ProjectContainer>
+            <ProjectContainer tech={['React', 'Node']} img='profilePicture' description='Esse é um projeto inventado, esse é um projeto inventado, esse é um projeto inventado.'>Nome do Projeto</ProjectContainer>
+            <ProjectContainer tech={['React', 'Node']} img='profilePicture' description='Esse é um projeto inventado, esse é um projeto inventado, esse é um projeto inventado.'>Nome do Projeto</ProjectContainer>
             <ProjectContainer tech={['React', 'Node']} img='profilePicture' description='Esse é um projeto inventado, esse é um projeto inventado, esse é um projeto inventado.'>Nome do Projeto</ProjectContainer>
           </div>
       </div>

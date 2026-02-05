@@ -7,8 +7,6 @@
   align-items: center;
   justify-content: start;
   text-align: center;
-  border: 1px solid black;
-  border-radius: 8px;
 }
 
 .btn-container {
@@ -20,4 +18,11 @@
 .img {
   height: 300px;
   margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.tech-list {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px
 }

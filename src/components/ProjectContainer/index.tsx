@@ -1,6 +1,7 @@
 import styles from './styles.module.css';
-import profilePicture from '../../assets/images/profile-picture.png'
+import pomodoro from '../../assets/images/Pomodoro.png'
 import { Button } from '../Button';
+import { TechItem } from '../TechItem';
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -11,21 +12,22 @@ type ContainerProps = {
 
 export function ProjectContainer(props: ContainerProps) {
   const children = props.children;
-  // const img = props.img;
   const description = props.description;
   const tech = props.tech;
-
+  
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={profilePicture} alt="" />
+      <img className={styles.img} src={pomodoro} alt="" />
       <h3>{children}</h3>
       <p>{description}</p>
-      <div>
-        <p>{tech}</p>
+      <div className={styles['tech-list']}>
+        {tech.map((item, index) => (
+          <TechItem key={index}>{item}</TechItem>
+        ))}        
       </div>
       <div className={styles['btn-container']}>
-          <Button>Site</Button>
-          <Button>Código</Button>
+          <Button>Website</Button>
+          <Button>Projeto</Button>
       </div>
     </div>
   );
