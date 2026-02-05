@@ -18,11 +18,11 @@ export function About() {
           <div className={styles['right-container']}>
             <h3 className={styles.subtitle}>Principais Conhecimentos</h3>
             <ul className={styles.list}>
-              <li className={styles['list-item']}>Inglês avançado.</li>
-              <li className={styles['list-item']}>React.</li>
+              <li className={styles['list-item']}>Inglês avançado</li>
+              <li className={styles['list-item']}>React</li>
               <li className={styles['list-item']}>NextJs</li>
               <li className={styles['list-item']}>TailWind</li>
-              <li className={styles['list-item']}>NodeJS.</li>
+              <li className={styles['list-item']}>NodeJS</li>
               <li className={styles['list-item']}>JavaScript</li>
               <li className={styles['list-item']}>TypeScript</li>
               <li className={styles['list-item']}>Html/Css</li>
