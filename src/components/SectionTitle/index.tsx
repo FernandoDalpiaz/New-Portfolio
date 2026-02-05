@@ -5,6 +5,6 @@ type ContainerProps = {
 
 export function SectionTitle({ children }: ContainerProps) {
   return (
-    <h1>{children}</h1>
+    <h2>{children}</h2>
   );
 }
