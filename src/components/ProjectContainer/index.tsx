@@ -1,23 +1,27 @@
 import styles from './styles.module.css';
-import pomodoro from '../../assets/images/Pomodoro.png'
 import { Button } from '../Button';
 import { TechItem } from '../TechItem';
 
 type ContainerProps = {
-  children: React.ReactNode;
-  img: React.ReactNode;
-  description: React.ReactNode;
+  children: string;
+  img: string;
+  description: string;
   tech: Array<string>;
+  website?: string;
+  project?: string;
 };
 
 export function ProjectContainer(props: ContainerProps) {
   const children = props.children;
   const description = props.description;
   const tech = props.tech;
+  const img = props.img;
+  const website = props.website;
+  const project = props.project;
   
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={pomodoro} alt="" />
+      <img className={styles.img} src={img} alt="" />
       <h3>{children}</h3>
       <p>{description}</p>
       <div className={styles['tech-list']}>
@@ -26,10 +30,9 @@ export function ProjectContainer(props: ContainerProps) {
         ))}        
       </div>
       <div className={styles['btn-container']}>
-          <Button>Website</Button>
-          <Button>Projeto</Button>
+          {website && <Button href={website}>Website</Button>}
+          <Button href = {project} >Projeto</Button>
       </div>
     </div>
   );
 }
-
