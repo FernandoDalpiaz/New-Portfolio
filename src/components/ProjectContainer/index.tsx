@@ -8,14 +8,14 @@ type ContainerProps = {
   description: string;
   tech: Array<string>;
   website?: string;
-  project?: string;
+  project: string;
 };
 
 export function ProjectContainer(props: ContainerProps) {
   const children = props.children;
   const description = props.description;
   const tech = props.tech;
-  const img = props.img;
+  const img = '../../../public/' + props.img;
   const website = props.website;
   const project = props.project;
   
@@ -30,8 +30,8 @@ export function ProjectContainer(props: ContainerProps) {
         ))}        
       </div>
       <div className={styles['btn-container']}>
-          {website && <Button href={website}>Website</Button>}
-          <Button href = {project} >Projeto</Button>
+          {website && <Button href={website} target="_blank" rel="noopener noreferrer">Website</Button>}
+          <Button href = {project} target="_blank" rel="noopener noreferrer">Projeto</Button>
       </div>
     </div>
   );

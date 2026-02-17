@@ -36,9 +36,9 @@ export function NavBar() {
       <div id='navbar-section' className={styles.navbar}>
         <Title>Fernando Dalpiaz</Title>
         <div className={styles.navitems}>
-          <a href='#' className={styles.item}>Projetos</a>
-          <a href='#' className={styles.item}>Formação</a>
-          <a href='#' className={styles.item}>Contato</a>
+          <a href='#projects-section' className={styles.item}>Projetos</a>
+          <a href='#about-section' className={styles.item}>Formação</a>
+          <a href='#contact-section' className={styles.item}>Contato</a>
           <a  onClick={handleThemeChange} href='#' className={styles.item}>
             {nextThemeIcon[theme]}
           </a>
