@@ -9,19 +9,26 @@ type ContainerProps = {
   tech: Array<string>;
   website?: string;
   project: string;
+  video: string;
 };
 
 export function ProjectContainer(props: ContainerProps) {
   const children = props.children;
   const description = props.description;
   const tech = props.tech;
-  const img = '../../../public/' + props.img;
   const website = props.website;
   const project = props.project;
-  
+  const video = props.video;
+
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={img} alt="" />
+      <iframe
+        className={styles.video} 
+        src={video}
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+        title={children}
+        referrerPolicy="strict-origin-when-cross-origin">
+      </iframe>
       <h3>{children}</h3>
       <p>{description}</p>
       <div className={styles['tech-list']}>

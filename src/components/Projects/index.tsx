@@ -14,7 +14,8 @@ export function Projects() {
               img='Pomodoro.png' 
               description='Uma aplicação de gerenciamento de tempo estilo pomodoro.' 
               website='https://focus-pomodoro-pi.vercel.app/'
-              project='https://github.com/FernandoDalpiaz/focus-pomodoro'>
+              project='https://github.com/FernandoDalpiaz/focus-pomodoro'
+              video='https://player.vimeo.com/video/1132805238?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'>
               Focus Pomodoro
             </ProjectContainer>
 
@@ -22,7 +23,7 @@ export function Projects() {
               tech={['Express', 'Node', 'OAuth']} 
               img='Secrets.png' 
               description='Aplicação de registrar e ver segredos com login e autenticação.' 
-              website='https://vimeo.com/1125262355?fl=pl&fe=ti'
+              video='https://player.vimeo.com/video/1125262355?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
               project='https://github.com/FernandoDalpiaz/Secrets-Project'>
               Secrets Web Application
             </ProjectContainer>
@@ -31,7 +32,7 @@ export function Projects() {
               tech={['Express', 'Node', 'Postgres']} 
               img='TravelTracker.png' 
               description='Salva os países visitados por pessoa e mostra em tempo real.' 
-              website='hhttps://vimeo.com/1125654247?fl=pl&fe=vl'
+              video='https://player.vimeo.com/video/1125654247?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
               project='https://github.com/FernandoDalpiaz/Family-Travel-Tracker_PG'>
               Family Travel Tracker
             </ProjectContainer>
@@ -40,7 +41,7 @@ export function Projects() {
               tech={['Express', 'Node']} 
               img='Blog.png' 
               description='Aplicação e que visualiza, cria e deleta posts de um blog.' 
-              website='https://vimeo.com/1125180558?fl=pl&fe=vl'
+              video='https://player.vimeo.com/video/1125180558?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
               project='https://github.com/FernandoDalpiaz/Blog-Project'>
               Blog Web Application
             </ProjectContainer>

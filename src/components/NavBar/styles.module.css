@@ -19,3 +19,12 @@
 .item:hover {
   border-bottom: 1px solid var(--text-default);
 }
+
+@media (max-width: 630px) {
+  .navbar {
+    justify-content: center;
+  }
+  .navitems {
+    display: none;
+  }
+}

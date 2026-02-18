@@ -2,6 +2,8 @@
   margin: 10rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -15,9 +17,22 @@
 .hero-paragraph {
   max-width: 80%;
   text-align: justify;
+    max-width: 700px;
+
 }
 
 .profile-picture {
   height: 40rem;
   padding-left: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1164px) {
+  .hero{
+    justify-content: center;
+  }
+
+  .profile-picture {
+    padding: 40px;
+  }
 }
