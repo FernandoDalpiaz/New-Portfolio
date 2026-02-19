@@ -13,3 +13,10 @@
   justify-content: center;
   gap: 50px;
 }
+
+@media (max-width: 400px) {
+  .contact-btns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

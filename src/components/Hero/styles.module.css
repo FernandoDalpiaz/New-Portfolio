@@ -30,7 +30,10 @@
 @media (max-width: 1164px) {
   .hero{
     justify-content: center;
+    text-align: center;
   }
+
+
 
   .profile-picture {
     padding: 40px;

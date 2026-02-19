@@ -54,3 +54,15 @@
 .list-item {
   margin-top: 10px;
 }
+
+@media (max-width: 750px) {
+  .outer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-container, .right-container {
+    width: 100%;
+  }
+}
